@@ -31,6 +31,12 @@ To remove the launch agent, run the uninstall script
 #Desktops
 You can then point your desktop folder to the `pictures` folder that is created to get all the goodness of momentum on your desktop.
 
+#Debug
+Run the python script directly to see any potential errors.  A `400 Bad Request` usually means your `CLIENT_ID` is wrong.
+Double check this was copied and pasted correctly.
+
+When the launch agent runs, any errors it encounters will be logged to a `error.log` in this directory.
+
 #Licence and Support
 NO WARRANTY. THE SOFTWARE IS PROVIDED TO YOU "AS IS" AND "WITH ALL FAULTS."  
 ANY USE OF THE SOFTWARE IS ENTIRELY AT YOUR OWN RISK.
