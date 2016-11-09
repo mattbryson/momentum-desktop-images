@@ -46,6 +46,7 @@ If you installed this into your `~/Pictures` dir, then the pictures will be foun
 Run the python script directly to see any potential errors.  
 
 A `Connection reset by peer` error usually means you have not entered a client ID.
+
 A `400 Bad Request` usually means your `CLIENT_ID` is wrong / not recognised.
 
 Double check this was copied and pasted correctly.
