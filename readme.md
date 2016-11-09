@@ -38,6 +38,10 @@ To remove the launch agent, run the uninstall script
 #Desktops
 You can then point your desktop folder to the `pictures` folder that is created to get all the goodness of momentum on your desktop.
 
+If you installed this into your `~/Pictures` dir, then the pictures will be found in
+
+    ~/Pictures/momentum-desktop-images/pictures/
+
 #Debug
 Run the python script directly to see any potential errors.  
 
