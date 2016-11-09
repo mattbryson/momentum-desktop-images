@@ -1,7 +1,7 @@
 #Momentum for Mac desktop
 This is a simple python script that will download the Momentum daily images to a folder on your computer, allowing you to point your desktop backgrounds to it.
 
-#Intallation
+#Installation
 Choose a dir on your computer where you want the pictures saved.
 Clone this git repo to that dir
 
