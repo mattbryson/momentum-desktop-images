@@ -15,7 +15,7 @@ First you nee to get your Momentum Client ID
 #Manual Run
 Once you have set you `CLIENT_ID` you can run the script to get the current images.
 
-  $ python ./sync_momentum.py
+    $ python ./sync_momentum.py
 
 #Automatically Run
 On OSX, you can set up the python script to run once a day, automatically downloading the images.
