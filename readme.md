@@ -9,7 +9,7 @@ Clone this git repo to that dir
     $ git clone https://github.com/mattbryson/momentum-desktop-images.git
 
 #Configuration
-First you nee to get your Momentum Client ID
+First you need to get your Momentum Client ID
 
 1. Open a new browser tab to get Momentum loaded up.
 2. Click on the settings cog bottom left
