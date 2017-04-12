@@ -16,7 +16,7 @@ Clone this git repo to that dir
 
 
 # Manual Run
-Once you have followed in installation instructions you can manually download the images with this command.
+Once you have followed the installation instructions you can manually download the images with this command.
 
     $ python ./sync_momentum.py
 
