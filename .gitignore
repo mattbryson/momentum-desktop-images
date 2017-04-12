@@ -1,6 +1,6 @@
 download_agent/me.mattbryson.momentum_download.agent.plist
 pictures/
-
+config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
