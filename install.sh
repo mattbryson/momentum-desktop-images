@@ -46,7 +46,7 @@ echo "y/n?"
 read update
 
 if [ "$update" == "y" ]; then
-  osascript -e 'tell application "System Events" to set picture of every desktop to ("$CURR_DIR/pictures")'
+  osascript -e "tell application \"System Events\" to set pictures folder of every desktop to \"${CURR_DIR}/pictures\""
 fi
 
 echo "\nYour all done";
