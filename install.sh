@@ -39,7 +39,7 @@ if [ "$auto" == "y" ]; then
   cp download_agent/me.mattbryson.momentum_download.agent.plist ~/Library/LaunchAgents/ && launchctl load  ~/Library/LaunchAgents/me.mattbryson.momentum_download.agent.plist
 fi
 
-echo "\n\n${BLUE}Awesome, Would you like to set all your desktops to ranomly show these images ?${NC}"
+echo "\n\n${BLUE}Awesome, Would you like to set all your desktops to randomly show these images ?${NC}"
 echo "${GREY}You can chnage this in System Preferences > Desktop and Screensaver${NC}"
 echo "y/n?"
 
