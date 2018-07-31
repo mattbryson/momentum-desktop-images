@@ -47,7 +47,12 @@ read update
 
 if [ "$update" == "y" ]; then
   osascript -e "tell application \"System Events\" to set pictures folder of every desktop to \"${CURR_DIR}/pictures\""
+  osascript -e "tell application \"System Events\" to set change interval of every desktop to 1800"
+  osascript -e "tell application \"System Events\" to set random order of every desktop to true"
 fi
+
+echo "syncing pictures..."
+python ./sync_momentum.py
 
 echo "\nYour all done";
 echo "${GREY}To uninstall you can run ./uninstall.sh${NC}";
