@@ -20,16 +20,24 @@ Once you have followed the installation instructions you can manually download t
 
     $ python ./sync_momentum.py
 
-# Debug
-Run the python script directly to see any potential errors.  
+# Errors
+Run the python script directly to see any potential errors.
 
-A `Connection reset by peer` error usually means you have not entered a client ID.
+When the launch agent runs, any errors it encounters will be logged to a `error.log` in this directory.
 
-A `400 Bad Request` usually means your `CLIENT_ID` is wrong / not recognised.
+## Connection reset by peer 
+usually means you have not entered a client ID.
+
+## 400 Bad Request 
+usually means your `CLIENT_ID` is wrong / not recognised.
 
 Double check this was copied and pasted correctly.
 
-When the launch agent runs, any errors it encounters will be logged to a `error.log` in this directory.
+## urllib2.URLError: SSL: TLSV1_ALERT_PROTOCOL_VERSION
+`urllib2.URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590)>`
+This is usually because your version of python (default shipped on OSX) is too old and doesnt have the latest versions of OpenSSL.
+
+To upgrade python 2 to the latest version on OSX you can use brew.  see https://docs.python-guide.org/starting/install/osx/
 
 # Licence and Support
 NO WARRANTY. THE SOFTWARE IS PROVIDED TO YOU "AS IS" AND "WITH ALL FAULTS."  

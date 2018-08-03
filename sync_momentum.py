@@ -10,7 +10,8 @@ try:
     from urllib.request import Request, urlopen, urlretrieve
 except ImportError:
     # Fall back to Python 2's urllib2
-    from urllib2 import Request, urlopen, urlretrieve
+    from urllib2 import Request, urlopen
+    from urllib import urlretrieve
     
 from config import *
 
